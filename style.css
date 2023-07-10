@@ -34,6 +34,9 @@ section {
     font-size: 40px;
     font-weight: 800;
 }
+span{
+    color: #E55473;
+}
 
 header {
     height: 660px;
@@ -148,12 +151,19 @@ header {
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
     padding: 0 120px;
+    margin-top: 0;
 }
 
 .derection {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+}
+
+.text-ttl{
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 600;
 }
 
 .Hot-Deal {
@@ -163,7 +173,8 @@ header {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin: 0;
-    padding: 0 180px;
+    padding: 0 200px;
+    height: 550px;
 }
 
 .Hot-Deal-dtl {
@@ -171,11 +182,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 .Hot-Deal-text {
     text-align: center;
+}
+
+.Hot-Deal-pic > img{
+    height:350px ;
 }
 
 .instagram-dtl {
@@ -251,9 +266,7 @@ footer{
 .footer-ttl{
     color: #FFF;
 }
-.footer-ttl > span{
-    color: #E55473;
-}
+
 
 .footer-text{
     color: rgba(255, 255, 255, 0.90);
