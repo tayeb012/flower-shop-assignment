@@ -257,6 +257,8 @@ footer{
 
 .footer-text{
     color: rgba(255, 255, 255, 0.90);
+    width: 625px;
+    text-align: center;
 }
 footer > p > small{
     color: rgba(255, 255, 255, 0.40);
