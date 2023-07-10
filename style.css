@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@300;400;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 35px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+section {
+    margin: 160px 150px 80px;
+}
+
+.ttl {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+header {
+    height: 660px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    padding-top: 30px;
+    position: relative;
+}
+
+/* section let make */
+.let-make-ttl {
+    margin-top: 180px;
+    width: 550px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.let-make-text {
+    width: 520px;
+    margin-top: 1.5rem;
+}
+
+.let-make-btn {
+    margin-top: 1.5rem;
+}
+
+/* let-pic */
+.let-pic {
+    width: 600px;
+    background-image: url(images/pngwing\ 10.png);
+    background-size: cover;
+    height: 660px;
+}
+
+
+.Featured-ttl-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ttl-text {
+    width: 594px;
+}
+
+.Featured-itm {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.itm {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.itm-pic {
+    height: 350px;
+    width: 350px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.picture {
+    height: 300px;
+}
+
+.pic-ttl {
+    margin: auto;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.pic-ttl:hover {
+    text-decoration: underline;
+}
+
+.pic1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pic2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.pic3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+.Same-Day {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    padding: 0 120px;
+}
+
+.derection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hot-Deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 0;
+    padding: 0 180px;
+}
+
+.Hot-Deal-dtl {
+    width: 594px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.Hot-Deal-text {
+    text-align: center;
+}
+
+.instagram-dtl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-text {
+    text-align: center;
+    width: 594px;
+}
+
+.instagram-pic {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.instagram-pic>img {
+    width: 250px;
+}
+
+
+.Latest-Deals {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-color: aqua;
+    border-radius: 8px;
+    background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Latest-Deals-text {
+    text-align: center;
+}
+
+.email-btn{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+#email {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px;
+    width: 450px;
+    border: none;
+    outline: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #111010;
+    height: 350px;
+}
+
+.footer-ttl{
+    color: #FFF;
+}
+.footer-ttl > span{
+    color: #E55473;
+}
+
+.footer-text{
+    color: rgba(255, 255, 255, 0.90);
+}
+footer > p > small{
+    color: rgba(255, 255, 255, 0.40);
+}
