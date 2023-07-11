@@ -7,6 +7,7 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* using for multiple class "start" */
 .text {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
@@ -38,6 +39,10 @@ span{
     color: #E55473;
 }
 
+/* using for multiple class "end" */
+
+/* start header part  */
+
 header {
     height: 660px;
     background: rgba(229, 84, 115, 0.10);
@@ -48,7 +53,7 @@ header {
     position: relative;
 }
 
-/* section let make */
+/* 1st part of header */
 .let-make-ttl {
     margin-top: 180px;
     width: 550px;
@@ -69,7 +74,7 @@ header {
     margin-top: 1.5rem;
 }
 
-/* let-pic */
+/* header 2nd part let-pic */
 .let-pic {
     width: 600px;
     background-image: url(images/pngwing\ 10.png);
@@ -77,7 +82,14 @@ header {
     height: 660px;
 }
 
+/* header end  */
 
+
+/* main start  */
+
+/* 1st section of main part  */
+
+/* 1st part of 1st section  */ 
 .Featured-ttl-section {
     display: flex;
     flex-direction: column;
@@ -89,6 +101,8 @@ header {
 .ttl-text {
     width: 594px;
 }
+
+/* 2nd part of 1st section   */
 
 .Featured-itm {
     display: flex;
@@ -142,6 +156,10 @@ header {
     background: rgba(71, 125, 17, 0.15);
 }
 
+/* 1st section of main part end  */
+
+
+/* 2nd section of main part start  */
 
 .Same-Day {
     height: 300px;
@@ -166,6 +184,11 @@ header {
     font-weight: 600;
 }
 
+/* 2nd section of main part end  */
+
+
+/* 3rd section of main part start  */
+
 .Hot-Deal {
     display: flex;
     align-items: center;
@@ -176,6 +199,8 @@ header {
     padding: 0 200px;
     height: 550px;
 }
+
+/* 1st part of 3rd section */
 
 .Hot-Deal-dtl {
     width: 594px;
@@ -189,10 +214,17 @@ header {
     text-align: center;
 }
 
+/* 2md part of 3rd section */
 .Hot-Deal-pic > img{
     height:350px ;
 }
 
+/* 3rd section of main part end  */
+
+
+/* 4th section of main part start  */
+
+/* 1st part of 4th section  */
 .instagram-dtl {
     display: flex;
     flex-direction: column;
@@ -204,6 +236,7 @@ header {
     width: 594px;
 }
 
+/* 2nd part of 4th section  */
 .instagram-pic {
     display: flex;
     justify-content: center;
@@ -215,6 +248,10 @@ header {
     width: 250px;
 }
 
+/* 4th section of main part end */
+
+
+/* 5th section of main part start */
 
 .Latest-Deals {
     display: flex;
@@ -229,6 +266,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .Latest-Deals-text {
     text-align: center;
@@ -252,7 +290,10 @@ header {
     font-weight: 400;
 }
 
+/* 5th section of main part end */
+/* main part end  */
 
+/* footer part start  */
 footer{
     display: flex;
     flex-direction: column;
@@ -276,3 +317,5 @@ footer{
 footer > p > small{
     color: rgba(255, 255, 255, 0.40);
 }
+
+/* footer part end  */
